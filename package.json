@@ -1,0 +1,10 @@
+{
+  "name": "com.spicyoverlord.spicyquaker2d",
+  "displayName": "Spicy Quaker 2D",
+  "version": "1.0.0",
+  "description": "SpicyQuaker2D is a simple screen-shake plugin.",
+  "author": {
+    "name": "Spicy Overlord",
+    "url": "https://github.com/SpicyOverlord"
+  }
+}
