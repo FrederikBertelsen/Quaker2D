@@ -32,9 +32,13 @@ namespace Quaker2D {
         }
 
         private bool IfSustained() {
+            if (quakePreset == null)
+                return false;
             return quakePreset.QuakeType == QuakeType.Sustained;
         }
         private bool IfTarget() {
+            if (quakePreset == null)
+                return false;
             return quakePreset.QuakeType == QuakeType.Bump && quakePreset.BumpType == BumpType.Target;
         }
     }
